@@ -1,1 +1,91 @@
-/* Empty. Add your own CSS if you like */
+/*=================================*/
+/* MENU */
+/*=================================*/
+
+#menu-content,
+#menu-content .item,
+#menu-content .item-content{
+  background-color: #31a9de;
+  border-color: #1B8ABB;
+  color: #fff;
+}
+
+#menu-content .bar.bar-stable {
+  background-color: #1B8ABB;
+  color: #fff;
+}
+
+#menu-content .bar.bar-stable .title {
+  color: #fff;
+}
+
+.circle {
+  position: relative;
+  background-color: #1B8ABB;
+  padding: 6px;
+  margin: 0 5px;
+  border-radius: 50%;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  z-index: -1;
+  box-shadow: 0 0 0 0 #1B8ABB;
+  transition: box-shadow 300ms ease-in-out;
+}
+
+#menu-content ion-item:hover .circle {
+  box-shadow: 0 0 0 400px #1B8ABB;
+}
+
+/*ion-view transition from standard view to menu*/
+.menu-animated {
+    -webkit-transition: -webkit-transform 500ms ease;
+    transition: transform 500ms ease;
+}
+
+/*=================================*/
+/* HOME */
+/*=================================*/
+
+
+
+/*=================================*/
+/* CRONOGRAMA */
+/*=================================*/
+
+
+
+/*=================================*/
+/* PALESTRANTES */
+/*=================================*/
+
+
+
+/*=================================*/
+/* SOCIAL */
+/*=================================*/
+
+
+
+/*=================================*/
+/* MANUAL */
+/*=================================*/
+
+
+
+/*=================================*/
+/* MEU CRONO */
+/*=================================*/
+
+
+
+/*=================================*/
+/* FEEDBACK */
+/*=================================*/
+
+
+
+/*=================================*/
+/* FAQ */
+/*=================================*/

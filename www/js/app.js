@@ -49,6 +49,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         }
       }
     })
+
     .state('app.playlists', {
       url: '/playlists',
       views: {
@@ -67,7 +68,80 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         controller: 'PlaylistCtrl'
       }
     }
+  })
+
+  .state('app.home', {
+    url: '/home',
+    views: {
+      'menuContent': {
+        templateUrl: 'templates/home.html',
+      }
+    }
+  })
+
+  .state('app.crono', {
+    url: '/crono',
+    views: {
+      'menuContent': {
+        templateUrl: 'templates/crono.html',
+      }
+    }
+  })
+
+  .state('app.palestrantes', {
+    url: '/palestrantes',
+    views: {
+      'menuContent': {
+        templateUrl: 'templates/palestrantes.html',
+      }
+    }
+  })
+
+  .state('app.social', {
+    url: '/social',
+    views: {
+      'menuContent': {
+        templateUrl: 'templates/social.html',
+      }
+    }
+  })
+
+  .state('app.manual', {
+    url: '/manual',
+    views: {
+      'menuContent': {
+        templateUrl: 'templates/manual.html',
+      }
+    }
+  })
+
+  .state('app.atividades', {
+    url: '/atividades',
+    views: {
+      'menuContent': {
+        templateUrl: 'templates/atividades.html',
+      }
+    }
+  })
+
+  .state('app.feedback', {
+    url: '/feedback',
+    views: {
+      'menuContent': {
+        templateUrl: 'templates/feedback.html',
+      }
+    }
+  })
+
+  .state('app.faq', {
+    url: '/faq',
+    views: {
+      'menuContent': {
+        templateUrl: 'templates/faq.html',
+      }
+    }
   });
+
   // if none of the above states are matched, use this as the fallback
-  $urlRouterProvider.otherwise('/app/playlists');
+  $urlRouterProvider.otherwise('/app/home');
 });
