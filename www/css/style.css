@@ -48,7 +48,73 @@
 /* HOME */
 /*=================================*/
 
+.btn-home {
+  width: 49.5%;
+  padding: 20px;
+  background-color: #f0f0f0;
+  text-align: center;
+  color: #065B80;
+  display: flex;
+  align-items: center;
+}
 
+a.btn-home {
+  text-decoration: none;
+}
+
+.btn-home i {
+  font-size: 40pt;
+  display: block;
+  width: 100%;
+}
+
+.btn-home .title{
+  display: block;
+  font-size: 12pt;
+  vertical-align: middle;
+}
+
+#home-content .row {
+  padding: 0;
+  height: 25%;
+}
+
+/*.cronograma {
+  background-color: #ddd;
+}
+
+.mapa {
+  background-color: #ccc;
+}
+
+.manual {
+  background-color: #ddd;
+}
+
+.feedback {
+  background-color: #ccc;
+}*/
+
+.main-row {
+  height: 50%;
+}
+
+.btn-bottom-row {
+  position: fixed;
+  bottom: 0;
+}
+
+.btn-top-row {
+  position: fixed;
+  bottom: 25%;
+}
+
+/*transition from home to button link*/
+[nav-view-transition="android"] [nav-view="entering"],
+[nav-view-transition="android"] [nav-view="leaving"] {
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+ }
 
 /*=================================*/
 /* CRONOGRAMA */
