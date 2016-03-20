@@ -133,6 +133,15 @@ angular.module('starter', ['ionic', 'starter.controllers'])
     }
   })
 
+  .state('app.palestrante', {
+    url: '/palestrantes/palestrante1',
+    views: {
+      'menuContent': {
+        templateUrl: 'templates/palestrantes/palestrante1.html',
+      }
+    }
+  })
+
   .state('app.faq', {
     url: '/faq',
     views: {
