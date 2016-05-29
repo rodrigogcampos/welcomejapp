@@ -140,14 +140,14 @@ a.btn-home {
   display: inline-block;
   border-left: 3px solid #065B80;
   padding: 20px;
-  margin-left: 70px;
+  margin-left: 73px;
   width: 100%;
 }
 
 .lecture-content .title {
   display: block;
   font-size: 1.5em;
-  margin-bottom: 10px;
+  margin-top: 10px;
   line-height: 1.2em;
 }
 
@@ -158,7 +158,7 @@ a.btn-home {
   position: relative;
   margin-bottom: -50px;
   margin-top: 25px;
-  margin-left: 62px;
+  margin-left: 65px;
   border-radius: 50%;
   background-color: #F8F8F8;
   z-index: 10;
@@ -173,8 +173,7 @@ a.btn-home {
   margin-bottom: -50px;
   margin-top: 25px;
   margin-left: 10px;
-  font-size: 14pt;
-  font-weight: bold;
+  font-size: 12pt;
   color: #065B80;
 }
 
@@ -182,10 +181,8 @@ a.btn-home {
 /* PALESTRANTES */
 /*=================================*/
 
-.speaker-big-img {
+.speaker-big-img img{
   width: 100%;
-  background: url(/img/foto.png) center center;
-  height: 200px;
 }
 
 

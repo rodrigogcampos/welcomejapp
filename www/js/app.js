@@ -124,6 +124,15 @@ angular.module('starter', ['ionic', 'starter.controllers'])
     }
   })
 
+  .state('app.mapa', {
+      url: '/mapa',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/mapa.html',
+        }
+      }
+    })
+
   .state('app.feedback', {
     url: '/feedback',
     views: {
@@ -133,13 +142,130 @@ angular.module('starter', ['ionic', 'starter.controllers'])
     }
   })
 
-  .state('app.palestrante', {
-    url: '/palestrantes/palestrante1',
+  .state('app.andrei_golfeto', {
+    url: '/palestrantes/andrei_golfeto',
     views: {
       'menuContent': {
-        templateUrl: 'templates/palestrantes/palestrante1.html',
+        templateUrl: 'templates/palestrantes/andrei_golfeto.html',
       }
     }
+  })
+
+  .state('app.aser_cortines', {
+      url: '/palestrantes/aser_cortines',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/palestrantes/aser_cortines.html',
+        }
+      }
+  })
+
+  .state('app.daniela_siaulys', {
+      url: '/palestrantes/daniela_siaulys',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/palestrantes/daniela_siaulys.html',
+        }
+      }
+  })
+
+  .state('app.dario_neto', {
+      url: '/palestrantes/dario_neto',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/palestrantes/dario_neto.html',
+        }
+      }
+  })
+
+  .state('app.elson_pires', {
+      url: '/palestrantes/elson_pires',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/palestrantes/elson_pires.html',
+        }
+      }
+  })
+
+  .state('app.gabriel_ferreira', {
+      url: '/palestrantes/gabriel_ferreira',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/palestrantes/gabriel_ferreira.html',
+        }
+      }
+  })
+
+  .state('app.kalil_el_kadri', {
+      url: '/palestrantes/kalil_el_kadri',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/palestrantes/kalil_el_kadri.html',
+        }
+      }
+  })
+
+  .state('app.klynsmann_bagatini', {
+      url: '/palestrantes/klynsmann_bagatini',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/palestrantes/klynsmann_bagatini.html',
+        }
+      }
+  })
+
+  .state('app.marcus_barao', {
+      url: '/palestrantes/marcus_barao',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/palestrantes/marcus_barao.html',
+        }
+      }
+  })
+
+  .state('app.paulo_americo', {
+      url: '/palestrantes/paulo_americo',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/palestrantes/paulo_americo.html',
+        }
+      }
+  })
+
+  .state('app.raquel_tetti', {
+      url: '/palestrantes/raquel_tetti',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/palestrantes/raquel_tetti.html',
+        }
+      }
+  })
+
+  .state('app.thiago_novazzi', {
+      url: '/palestrantes/thiago_novazzi',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/palestrantes/thiago_novazzi.html',
+        }
+      }
+  })
+
+  .state('app.wellington_santos_silva', {
+      url: '/palestrantes/wellington_santos_silva',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/palestrantes/wellington_santos_silva.html',
+        }
+      }
+  })
+
+  .state('app.yuri_pomarole', {
+        url: '/palestrantes/yuri_pomarole',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/palestrantes/yuri_pomarole.html',
+          }
+        }
   })
 
   .state('app.faq', {
